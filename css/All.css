@@ -1,0 +1,80 @@
+
+div.logform
+{
+  background-color: aqua;
+  margin: 5vh 30vh;
+  padding: 5vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+div.center
+{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+button.submit
+{
+  padding:1vh;
+}
+
+nav
+{
+  background-color:black;
+  margin: 0px 0px 0px 10px;
+  padding: 10px;
+
+}
+nav a
+{
+  padding: 12px;
+  text-decoration: none;
+  margin: 0px 10px 0px 0px;
+  font-size: 17px;
+  color: white;
+  font-family: Roboto, sans-serif;
+  
+}
+
+nav a:hover{
+  color: rgb(100, 245, 250);
+}
+
+
+input[type=text], input[type=password]
+{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+
+  #map {
+    height: 60vh;
+    margin: 5vh;
+  }
+
+h1{
+  text-align: center;
+  font-family: Roboto, sans-serif;
+}
+
+div.search
+{
+  padding: 0 39% 0;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+div.search input[type=text]
+{
+  width: 5hv;
+}
