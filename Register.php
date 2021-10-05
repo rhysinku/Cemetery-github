@@ -28,6 +28,7 @@ include_once 'header.php';
                 <div class="center">
                 <button type="submit" name="submit" class="submit">Register</button>
                 </div>
+                
             </form>
         </div>
 

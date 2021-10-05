@@ -3,9 +3,9 @@ include_once 'header.php';
 ?>
 
 <?php
-        if(isset($_SESSION["username"]))
+        if(isset($_SESSION["user"]))
         {
-            echo "<h1>Welcome " .$_SESSION["username"]."</h1>";
+            echo "<h1>Welcome " .$_SESSION["user"]."</h1>";
         }
         ?>
             <h1>Argao Cemetery Mapping</h1>

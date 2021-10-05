@@ -13,12 +13,12 @@ if(isset($_POST["submit"]))
     $rpassword = $_POST["rpassword"];
 
     $sql = "INSERT INTO user (userName, userFname, userLname,userContact,userAddress,userPwd)
-             VALUES ('$username','$fname','$lname','$num','$email','$password');";
+             VALUES ('$username','$fname','$lname','$num','$email','$password')";
     $conn->query($sql);
     header("Location: ../index.php?error=Success");
     
 }
 else
 {
-    header("Location: ../Register.php?error=YAWA");
+    header("Location: ../Register.php?error=connectionError");
 }
