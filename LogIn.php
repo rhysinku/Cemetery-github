@@ -5,10 +5,10 @@ include_once 'header.php';
 
         <div class="logform">
             <form>
-                <label> User Name</label>
-                <input type="text" id="user"/>
+                <label> UserName</label>
+                <input type="text" name="user"/>
                 <label>Password </label>
-                <input type="password" id="password"/>
+                <input type="password" name="password"/>
                 <a href="forgot.php">Forgot Password</a><br>
                 <div class="center">
                 <button type="submit" name="submit" class="submit">Log In</button>
