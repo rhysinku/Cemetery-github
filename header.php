@@ -14,7 +14,7 @@ session_start()
     <head>
         <body>
             <nav class="navcofig">
-                <a href="index.php">Home</a>
+                <a href="index.php">HomePage</a>
                 <a href="LogIn.php">Log in</a>
                 <a href="Register.php">Register</a>
             </nav> 

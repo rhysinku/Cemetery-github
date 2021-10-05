@@ -9,6 +9,7 @@ include_once 'header.php';
         }
         ?>
             <h1>Argao Cemetery Mapping</h1>
+            <p>Rhysin Villahermosa</p>
             <form> 
                 <div class="search">
                 <input type="text" placeholder="Search" id="ids"/>
