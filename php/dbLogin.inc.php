@@ -17,6 +17,7 @@ require_once 'db.inc.php';
             $username = $row['userName'];
             session_start ();
             $_SESSION['user'] = $username;
+            
         }
 
         header("Location: ../index.php?error=Success"); 

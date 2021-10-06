@@ -1,5 +1,6 @@
 <?php
-session_start()
+session_start();
+
 
 ?>
 <!DOCTYPE html>
@@ -14,7 +15,20 @@ session_start()
     <head>
         <body>
             <nav class="navcofig">
-                <a href="index.php">Home</a>
-                <a href="LogIn.php">Log in</a>
-                <a href="Register.php">Register</a>
+                
+                <?php 
+                if(isset($_SESSION["user"]))
+                {
+                    echo "<a href='index.php'>Home</a>";
+                    echo "<a href='Profile.php'>".$_SESSION["user"]."</a>";
+                    echo "<a href='php/dbLogout.inc.php'>Logout</a>";
+                }
+                else
+                {
+                    echo "<a href='index.php'>Home</a>";
+                    echo "<a href='LogIn.php'>Log in</a>";
+                    echo "<a href='Register.php'>Register</a>";
+                }
+                ?>
+               
             </nav> 

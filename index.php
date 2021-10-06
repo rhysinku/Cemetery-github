@@ -1,5 +1,6 @@
 <?php
 include_once 'header.php';
+
 ?>
 
 <?php
@@ -11,11 +12,11 @@ include_once 'header.php';
             <h1>Argao Cemetery Mapping</h1>
             <form> 
                 <div class="search">
-                <input type="text" placeholder="Search" id="ids"/>
+                <input type="text" placeholder="Search" name="search"/>
                     <span class="material-icons">
                         search
                         </span>
-                    </span></button>
+                    </span>
                     </span>
             </div>    
             </form>
