@@ -19,7 +19,7 @@ session_start();
                 <?php 
                 if(isset($_SESSION["user"]))
                 {
-                    echo "<a href='index.php'>Home</a>";
+                    echo "<a href='index.php'> Home</a>";
                     echo "<a href='Profile.php'>".$_SESSION["user"]."</a>";
                     echo "<a href='php/dbLogout.inc.php'>Logout</a>";
                 }
@@ -30,5 +30,4 @@ session_start();
                     echo "<a href='Register.php'>Register</a>";
                 }
                 ?>
-               
             </nav> 

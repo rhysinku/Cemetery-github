@@ -14,6 +14,6 @@ if(mysqli_num_rows($result)>0)
         $fname = $urow['userFname'];
         $lname = $urow['userLname'];
         $contact = $urow['userContact'];
-        $email = $urow['userAddress'];
+        $email = $urow['userMail'];
     }
 }

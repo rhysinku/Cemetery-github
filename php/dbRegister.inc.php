@@ -12,7 +12,7 @@ if(isset($_POST["submit"]))
     $password = $_POST["password"];
     $rpassword = $_POST["rpassword"];
 
-    $sql = "INSERT INTO user (userName, userFname, userLname,userContact,userAddress,userPwd)
+    $sql = "INSERT INTO user (userName, userFname, userLname,userContact,userMail,userPwd)
              VALUES ('$username','$fname','$lname','$num','$email','$password')";
     $conn->query($sql);
     header("Location: ../index.php?error=Success");
