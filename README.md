@@ -1,2 +1,7 @@
 # Cemetery-github
- Rhysin's cemetery website
+ Rhysin's Ouput
+      * Log In
+      * Log Out
+      * Register
+      * Profile
+ 
