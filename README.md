@@ -1,8 +1,8 @@
 # Cemetery-github
 
- Markup : - [ ] Rhysin's Ouput
-              - [ ] Log In
-              - [ ] Log Out
-              - [ ] Register
-              - [ ] Profile
+- [ ] Rhysin's Ouput
+    - [x] Log In
+    - [x] Log Out
+    - [x] Register
+    - [x] Profile
               
