@@ -12,10 +12,20 @@ if(isset($_POST["submit"]))
     $password = $_POST["password"];
     $rpassword = $_POST["rpassword"];
 
-    $sql = "INSERT INTO user (userName, userFname, userLname,userContact,userMail,userPwd)
-             VALUES ('$username','$fname','$lname','$num','$email','$password')";
-    $conn->query($sql);
-    header("Location: ../index.php?error=Success");
+    if($password == $rpassword)
+    {
+        $sql = "INSERT INTO user (userName, userFname, userLname,userContact,userMail,userPwd)
+        VALUES ('$username','$fname','$lname','$num','$email','$password')";
+        $conn->query($sql);
+        header("Location: ../index.php?error=Success");
+    }
+
+    else{
+        header("Location: ../Register.php?error=WrongPassword");
+        echo "<p>Password Didn't Match</p?";
+    }
+
+   
     
 }
 else

@@ -21,6 +21,7 @@ session_start();
                 {
                     echo "<a href='index.php'> Home</a>";
                     echo "<a href='Profile.php'>".$_SESSION["user"]."</a>";
+                    echo "<a href='Booking.php'>Book</a>";
                     echo "<a href='php/dbLogout.inc.php'>Logout</a>";
                 }
                 else

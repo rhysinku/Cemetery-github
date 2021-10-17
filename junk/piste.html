@@ -2,26 +2,45 @@
 
 <html>
     <head>
-        <title> YYAWA JUD KA MARK </title>
-
+        <title> Function and Array </title>
     <body> 
-        <h1>RHYSIN</h1>
+        <h1>Create a javascript in an html file, that would create arrays with the used of function to <br>
+            input 10 elements in the array(array names are itemcode, description, price , quantity, subtotal),<br>
+            subtotal array is not inputted but computed and function to display all the inputted elements of the array <br>
+            ang the total of subtotal array.</h1>
     </body>
         <script>
-        var item = prompt("itemCode: ");
-        var desc = prompt("descriptio: ");
-        var price = prompt("price: ");
-        var quan = prompt("quantity: ");
 
- Yawa = {
-     productCode: item,
-     productDescription: desc,
-     productPrice: price,
-     productQuan: quan
-        }
+arr=new Array(5);
+  var i;
+  
+  function entry()
+  {
+    
+    for(i=0;i<5;i++)
+      {
+        arr[i]=prompt("Enter values in the array");
+      }
+    dis();
+    
+  }
+  
+  function dis()
+  {
+    
+    for(i=0;i<5;i++)
+      {
         
- document.write("Product Code: "+Yawa['productCode']+ "<br>");
- document.write(Yawa['productDescription']);
+        document.write(arr[i]+"<br>");
+        
+      }
+    
+  }
+  
+  
+  entry();
+ 
+  
 
          </script>
     </head>

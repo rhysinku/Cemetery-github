@@ -1,6 +1,6 @@
 <?php
-include_once 'header.php';
-include_once 'php/db.Profile.inc.php';
+include_once 'admin.header.php';
+include_once '../admin/Admin php/admin.Profile.inc.php';
 ?>
 
             

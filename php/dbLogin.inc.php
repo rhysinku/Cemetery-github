@@ -14,14 +14,21 @@ require_once 'db.inc.php';
     {
         while ($row = mysqli_fetch_array($result))
         {
+            $userID = $row['userId'];
             $username = $row['userName'];
             session_start ();
             $_SESSION['user'] = $username;
+            $_SESSION['userId'] = $userID;
             
         }
+        if($_SESSION['user'] == "admin")
+        {
+        header("Location: ../admin/admin.php?error=Admin"); 
+        }
+        else{
 
         header("Location: ../index.php?error=Success"); 
-
+         }
     }
 
     else
