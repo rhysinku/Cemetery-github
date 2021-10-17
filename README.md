@@ -1,2 +1,8 @@
 # Cemetery-github
- Local PC
+
+- [ ] Rhysin's Ouput
+    - [x] Log In
+    - [x] Log Out
+    - [x] Register
+    - [x] Profile
+              
